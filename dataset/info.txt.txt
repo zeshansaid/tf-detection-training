@@ -1,0 +1,6 @@
+paste your datset here:
+folder structrure should be: 
+dataset
+	trian
+	val
+	test

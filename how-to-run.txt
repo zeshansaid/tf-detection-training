@@ -1,0 +1,7 @@
+use conda env tflite.
+check your dataset
+run train_model.ipynb
+//
+to solve error
+OSError: SavedModel file does not exist at: C:\Users\misba\----\{saved_model.pbtxt|saved_model.pb}
+go to this path and delete the saved_model file and run trianing again.
