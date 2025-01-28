@@ -21,24 +21,12 @@ MODEL_PATH = f'/content/tf-detection-training/model'
 MODEL = 'efficientdet_lite0'
 MODEL_NAME = 'car.tflite'
 CLASSES = [
-    'Front-Windscreen-Damage',  
-    'Headlight-Damage', 
-    'Major-Rear-Bumper-Dent', 
-    'Rear-windscreen-Damage', 
-    'RunningBoard-Dent', 
-    'Sidemirror-Damage', 
-    'Signlight-Damage', 
-    'Taillight-Damage', 
-    'bonnet-dent', 
-    'boot-dent', 
-    'doorouter-dent', 
-    'fender-dent',
-    'front-bumper-dent', 
-    'medium-Bodypanel-Dent', 
-    'pillar-dent', 
-    'quaterpanel-dent', 
-    'rear-bumper-dent', 
-    'roof-dent',
+    'Baby on staircase',  
+    'Toddler palying stacking ring', 
+    'Toddler playing swing', 
+    'Toddler sleeping', 
+    'Toddler yawning', 
+    
 ]
 EPOCHS = 100
 BATCH_SIZE = 8
