@@ -1,8 +1,8 @@
 import warnings
 warnings.filterwarnings("ignore")
-
 from tflite_model_maker import model_spec
 from tflite_model_maker import object_detector
+
 
 import config
 
